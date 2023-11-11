@@ -1,0 +1,20 @@
+.main-logo{
+    width: 100px;
+  }
+
+  .navbar-wrapper{
+    display: flex;
+
+  }
+
+  .logo-section{
+    display: flex;
+    align-items: center; 
+  }
+
+  .menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px
+  }
