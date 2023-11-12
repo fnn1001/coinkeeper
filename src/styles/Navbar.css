@@ -4,17 +4,24 @@
 
   .navbar-wrapper{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
 
   }
 
   .logo-section{
     display: flex;
-    align-items: center; 
+    align-items: flex-end; 
   }
 
   .menu-section{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 100px
+    justify-content: flex-end;
+    margin: 0px 20px;
+  }
+
+  .nav-item{
+    padding: 12px;
   }

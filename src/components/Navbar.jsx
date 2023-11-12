@@ -11,10 +11,10 @@ const Navbar = () => {
                 <h1> CoinKeeper </h1>
             </div>
             <div className='menu-section'>
-                <p> Menu </p>
-                <p> Menu2 </p>
-                <p> Menu3 </p>
-
+                <p className='nav-item'> Dashboard </p>
+                <p className='nav-item'> Investments  </p>
+                <button className='nav-item'> Log in </button>
+                <button className='nav-item'> Get started </button>
             </div>
         </div>
     )
