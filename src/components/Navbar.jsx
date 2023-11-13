@@ -1,24 +1,24 @@
-import logo from '../images/logo-naked.png'
-import '../styles/Navbar.css'
+// navbar.jsx
 
-
+import React from 'react';
+import logo from '../images/logo-naked.png';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
     return (
         <div className="navbar-wrapper">
-            <div className="logo-section"> 
-                <img src={logo} className="main-logo"/>
-                <h1> CoinKeeper </h1>
-            </div>
+            <a href="/" className="logo-section"> {/* Use a simple anchor tag */}
+                <img src={logo} className="main-logo" alt="CoinKeeper Logo" />
+                <h1 className="logo-text">CoinKeeper</h1>
+            </a>
             <div className='menu-section'>
-                <p className='nav-item'> Dashboard </p>
-                <p className='nav-item'> Investments  </p>
-                <button className='nav-item'> Log in </button>
-                <button className='nav-item'> Get started </button>
+                <a href="/dashboard" className='nav-item'>Dashboard</a>
+                <a href="/investments" className='nav-item'>Investments</a>
+                <a href="/login" className='nav-item button'>Log in</a>
+                <a href="/get-started" className='nav-item button'>Get started</a>
             </div>
         </div>
-    )
-
+    );
 }
 
 export default Navbar;
